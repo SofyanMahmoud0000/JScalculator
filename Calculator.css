@@ -1,0 +1,156 @@
+*
+{
+    padding:10px;
+    margin:10px;
+    text-align:center;
+    font-weight: 900;
+}
+body
+{
+    background-image:url("http://eskipaper.com/images/simple-background-patterns-1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+table
+{
+    margin:auto;
+    font-size:16px;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px 10px 50px 50px;
+    padding:30px;
+}
+td
+{
+    border:0px;
+    text-align:center;
+    padding:0px;
+    background-color:transparent;
+    
+}
+p
+{
+    border-radius: 100px;
+    padding:20px 25px;
+    margin:10px;
+    cursor: pointer;
+}
+.number
+{
+    box-shadow: 0px 0px 5px 0px;
+    min-width: 13px;
+    max-width: 17px;
+}
+.number:hover
+{
+    box-shadow: 0px 0px 15px 0px;
+}
+.operation 
+{
+    box-shadow: 0px 0px 5px 0px white;
+    max-width:10px;
+}
+.operation:hover
+{
+    box-shadow: 0px 0px 15px 0px white;
+}
+.AC , .del
+{
+    box-shadow: 0px 0px 5px 0px white;
+    max-width:10px;
+}
+.AC:hover , .del:hover
+{
+    box-shadow: 0px 0px 15px 0px white;
+}
+.zero
+{
+    box-shadow: 0px 0px 5px 0px black;
+}
+.zero:hover
+{
+    box-shadow: 0px 0px 15px 0px black;
+}
+.equal
+{
+    box-shadow: 0px 0px 5px 0px white;
+    min-height:110px;
+    max-width:10px;
+}
+.equal:hover
+{
+    box-shadow: 0px 0px 15px 0px white;
+}
+.equalSign
+{
+    position: relative;
+    top:40px;
+    right:20px;
+}
+.turn
+{
+    box-shadow: 0px 0px 5px 0px white;
+    text-indent: -10px;
+    padding:10px 0px;
+}
+.turn:hover
+{
+    box-shadow: 0px 0px 15px 0px white;
+}
+#screen
+{
+    background-color:black;
+    padding:5px 0px;
+    text-align:left;
+    cursor: default;
+    max-width: 100%;
+    overflow:auto;
+    min-height: 25px;
+    border-radius: 0px;
+    
+}
+.screen
+{
+    background-color:black;
+    box-shadow: 0px 0px 5px 0px white;
+    border-radius:10px;
+    padding:10px 0px;
+    max-width: 270px;
+    max-height:0px;
+}
+.result
+{
+    background-color:transparent;
+    padding:10px 0px 10px 0px;
+    text-align:left;
+    cursor: default;
+    max-width: 100%;
+    overflow:auto;
+    min-height: 25px;
+    border-radius: 0px;
+}
+#result
+{
+    background-color:black;
+    padding:5px 10px;
+    text-align:left;
+    cursor: default;
+    max-width: 100%;
+    overflow:auto;
+    min-height: 25px;
+    border-radius: 0px;
+    margin:0px;
+    border-radius: 10px;
+}
+
+.number:active , .zero:active
+{
+    color:white;
+    box-shadow: 0px 0px 15px 0px white;
+}
+
+.operation:active , .del:active , .AC:active , .equal:active , .turn:active
+{
+    color:white;
+    box-shadow: 0px 0px 15px 0px black;
+}
