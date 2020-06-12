@@ -19,7 +19,7 @@ If you have any questions on how to use this calculator, or have ideas for futur
 
 ## Authors 
 
-***Sofyan Mahmoud*** - computer engineering
+[Sofyan Mahmoud](https://github.com/sofyanmahmoud0000) - computer engineer
 
 ## Licence
 MIT
