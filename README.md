@@ -1,4 +1,4 @@
-# JScalculator
+# [JScalculator](https://sofyan.netlify.com/calculator)
 It's a simple calculator implemented using javascript
 
 ![interface](https://github.com/sofyanmahmoud0000/JScalculator/blob/master/interface.png)
